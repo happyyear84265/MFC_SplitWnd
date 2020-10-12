@@ -1,0 +1,29 @@
+﻿// MFCApplication2.idl: MFCApplication2.exe 的型別程式庫來源
+
+// 這個檔案會由 MIDL 編譯器處理以產生
+// 型別程式庫 (MFCApplication2.tlb)。
+
+[ uuid(2e7993be-a3ec-43ff-8486-725b06eb63f5), version(1.0) ]
+library MFCApplication2
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CMFCApplication2Doc 的主要分派介面
+
+	[ uuid(a17fed6a-6c5b-43aa-af2b-1858700695aa) ]
+	dispinterface IMFCApplication2
+	{
+		properties:
+
+		methods:
+	};
+
+	//  CMFCApplication2Doc 的類別資訊
+
+	[ uuid(fd2056e3-2b85-47a8-b770-c0841eae7f73) ]
+	coclass MFCApplication2
+	{
+		[default] dispinterface IMFCApplication2;
+	};
+};

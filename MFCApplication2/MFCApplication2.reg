@@ -1,0 +1,17 @@
+﻿REGEDIT
+; 您的安裝程式會使用此 .REG 檔。
+; 如果無法使用安裝程式，會使用對 CWinApp::RegisterShellFileTypes 
+; 與 COleObjectFactory::UpdateRegistryAll 的呼叫，
+; 自動在您的 InitInstance 中登錄下列項目。
+
+
+HKEY_CLASSES_ROOT\MFCApplication2.Application = MFCApplication2 Application
+
+
+HKEY_CLASSES_ROOT\MFCApplication2.Application\CLSID = {fd2056e3-2b85-47a8-b770-c0841eae7f73}
+
+HKEY_CLASSES_ROOT\CLSID\{fd2056e3-2b85-47a8-b770-c0841eae7f73} = MFCApplication2 Application
+HKEY_CLASSES_ROOT\CLSID\{fd2056e3-2b85-47a8-b770-c0841eae7f73}\ProgId = MFCApplication2.Application
+
+
+HKEY_CLASSES_ROOT\CLSID\{fd2056e3-2b85-47a8-b770-c0841eae7f73}\LocalServer32 = MFCApplication2.EXE
