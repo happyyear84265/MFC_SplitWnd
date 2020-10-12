@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFCApplication1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication1Doc.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MFCApplication1View.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormView1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="FormView2.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="MySplitter.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFCApplication1.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1Doc.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MFCApplication1View.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="FormView1.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="FormView2.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="MySplitter.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFCApplication1.rc">
+      <Filter>資源檔</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\MFCApplication1Doc.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\MFCApplication1.ico">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>資源檔</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFCApplication1.rc2">
+      <Filter>資源檔</Filter>
+    </None>
+  </ItemGroup>
+</Project>
